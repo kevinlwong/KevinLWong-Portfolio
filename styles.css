@@ -60,11 +60,12 @@ body {
 .hero .left img {
     width: 600px;
     padding-left: 100px;
+
 }
 
 .hero .right {
     color: var(--white);
-    margin-top: -7rem;
+    margin-top: 1rem;
 }
 
 .hero .right h6 {

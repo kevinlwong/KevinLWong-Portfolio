@@ -32,7 +32,7 @@
 .btn-primary {
     background-color: var(--primary);
     color: var(--secondary);
-    margin-top: -15rem;
+    /* margin-top: -15rem; */
     text-decoration: none;
 }
 
