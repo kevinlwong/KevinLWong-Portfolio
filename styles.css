@@ -1,4 +1,5 @@
 @import 'utilities.css';
+@import url('utilities.css');
 
 :root {
     --primary: rgb(0, 110, 9);
