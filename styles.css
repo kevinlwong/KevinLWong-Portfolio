@@ -19,6 +19,7 @@
 }
 
 header {
+    padding: 4rem 0;
     background-color: var(--bgDark);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);
 }
@@ -61,11 +62,12 @@ body {
 .hero .left img {
     width: 600px;
     padding-left: 100px;
+
 }
 
 .hero .right {
     color: var(--white);
-    margin-top: -7rem;
+    margin-top: 1rem;
 }
 
 .hero .right h6 {
@@ -88,7 +90,7 @@ body {
 .hero .right p {
     line-height: 1.9;
     margin-bottom: 2rem;
-    margin-right: 25rem;
+    margin-right: 8rem;
 }
 
 
@@ -232,4 +234,22 @@ section.services .card-grid .card:hover p {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 3rem 0;
+        /* Adjust the top and bottom padding for smaller screens */
+    }
+}
+
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
+
+    /* Styles for iPhone 11 in portrait orientation */
+    header {
+        padding: 3rem 0;
+        /* Adjust the top and bottom padding for smaller screens */
+        background-color: var(--bgDark);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);
+    }
 }
