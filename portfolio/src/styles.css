@@ -19,7 +19,8 @@
 }
 
 header {
-    padding: 4rem 0;
+    padding: 0 0;
+    margin: 0%;
     background-color: var(--bgDark);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);
 }
@@ -49,14 +50,16 @@ body {
 }
 
 .container {
-    max-width: 1152px;
-    padding: 0 15px;
-    margin: 0 auto;
+    /* max-width: 1152px; */
+    padding: 0 0px;
+    margin: 0 0;
+    
 }
 
 .hero {
     padding-top: 2rem;
     padding-bottom: 3rem;
+    font-family: 'Lato', sans-serif;
 }
 
 .hero .left img {
@@ -78,7 +81,14 @@ body {
 
 .hero .right h1 {
     font-size: 4rem;
-    font-weight: 100;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+.hero .right h2 {
+    font-size: 3rem;
+    font-weight: 400;
     line-height: 1.2;
     margin-bottom: 2rem;
 }
@@ -87,10 +97,16 @@ body {
     color: var(--primary);
 }
 
+.hero .right h2 span {
+    color: var(--primary);
+}
+
 .hero .right p {
+    font-size: 1.5rem;
     line-height: 1.9;
     margin-bottom: 2rem;
     margin-right: 8rem;
+    
 }
 
 
@@ -235,6 +251,13 @@ section.services .card-grid .card:hover p {
     margin: 4px 2px;
     cursor: pointer;
 }
+
+
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
 
 @media screen and (max-width: 768px) {
     header {
