@@ -4,7 +4,7 @@
     top: 0;
     left: 0;
     height: 100%;
-    width: 11rem; /* Width when open */
+    width: 10%; /* Width when open */
     max-width: 70vw; /* Limit the width on smaller screens */
     background-color: var(--bgDark);
     color: var(--white);
@@ -20,7 +20,7 @@
   
   /* Closed Sidebar State */
   .sidebar.closed {
-    width: 3.2rem; /* Width when closed */
+    width: 3.5rem; /* Width when closed */
   }
   
   /* Toggle Button */
@@ -67,13 +67,6 @@
     margin-top: 20px;
   }
   
-  /* .sidebar-content a {
-    padding: 10px 0;
-    text-decoration: none;
-    color: var(--white);
-    font-size: 1rem;
-    transition: color 0.2s;
-  } */
   
   .sidebar-content a:hover {
     color: var(--bgLight);

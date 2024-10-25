@@ -120,7 +120,7 @@ function App() {
         </div>
       </section>
 
-      <section id="projects" class="services">
+      {/* <section id="projects" class="services">
   <div class="container">
     <h1 class="services-head">Projects</h1>
     <p>Here is a compilation of some of my projects! Click them to learn more about each one!</p>
@@ -135,16 +135,16 @@ function App() {
             messages.
           </p>
         </div>
-      </a>
+      </a> */}
       {/* <!-- Repeat for other projects, ensuring correct image paths --> */}
-    </div>
+    {/* </div>
   </div>
-</section>
+</section> */}
 
  <section id="more" class="more">
         <div class="container">
-            <h1 class="services-head">More</h1>
-            <h2>Accolades</h2>
+            <h1 >Achievements</h1>
+            {/* <h2>Accolades</h2> */}
             <ul>
                 <li>
                     <h3>Cal Poly Pomona President's Honor List | 2021-2023</h3>
@@ -154,8 +154,7 @@ function App() {
                     </ul>
                 </li>
                 <li>
-                    <h3>Cal Poly Pomona College of Science's Dean’s Lists | Fall 2021-2023 Spring 2022-2024
-                    </h3>
+                    <h3>Cal Poly Pomona College of Science's Dean’s Lists | Fall 2021-2023 Spring 2022-2024</h3>
                     <ul >
                         <li>An honor in which the Dean of the College of Science recognizes students for completing a semester at Cal
                             Poly Pomona with an outstanding Grade Point Average.</li>

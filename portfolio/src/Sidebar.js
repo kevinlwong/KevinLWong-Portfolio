@@ -15,25 +15,17 @@ const Sidebar = () => {
       <button className="toggle-btn" onClick={toggleSidebar}>
         {isOpen ? '-' : '+'}
       </button>
-      <img src="./images/bronco.jpg" width="50px" alt="logo" />
-      {/* Sidebar content */}
-      {/* Sidebar content - displayed only when the sidebar is open */}
-      {isOpen && (
-        <>
-          {/* <img src="./images/bronco.jpg" width="50px" alt="logo" /> */}
-          <div className="sidebar-content">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#more">More</a>
-            
-            {/* Dynamic Contact Button Text */}
-            <a href="mailto:kevinwong973@gmail.com" className="btn btn-primary">
-              {isOpen ? 'Contact Me' : 'Contact'}
-            </a>
-          </div>
-        </>
-      )}
+      <div className={`sidebar-content ${isOpen ? 'visible' : 'hidden'}`}>
+        <img src="./images/bronco.jpg" width="50px" alt="logo" />
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#more">More</a>
+        {/* Dynamic Contact Button Text */}
+        <a href="mailto:kevinwong973@gmail.com" className="btn btn-primary">
+          Contact Me
+        </a>
+      </div>
     </div>
   );
 };
