@@ -141,6 +141,33 @@ function App() {
   </div>
 </section>
 
+ <section id="more" class="more">
+        <div class="container">
+            <h1 class="services-head">More</h1>
+            <h2>Accolades</h2>
+            <ul>
+                <li>
+                    <h3>Cal Poly Pomona President's Honor List | 2021-2023</h3>
+                    <ul >
+                        <li>An honor in which the President recognizes students who have demonstrated exceptional
+                            academic standing for the entire academic year.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Cal Poly Pomona College of Science's Dean’s Lists | Fall 2021-2023 Spring 2022-2024
+                    </h3>
+                    <ul >
+                        <li>An honor in which the Dean of the College of Science recognizes students for completing a semester at Cal
+                            Poly Pomona with an outstanding Grade Point Average.</li>
+                    </ul>
+                </li>
+            </ul>
+
+
+        </div>
+    </section>
+
+
       
       {/* Additional Sections (Projects, More, etc.) go here */}
       <div className="socials">

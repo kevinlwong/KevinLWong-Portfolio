@@ -17,20 +17,23 @@ const Sidebar = () => {
       </button>
       <img src="./images/bronco.jpg" width="50px" alt="logo" />
       {/* Sidebar content */}
-      <div className="sidebar-content">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#more">More</a>
-        <a href="#contacts">Contacts</a>
-        {/* <a href="mailto:kevinwong973@gmail.com" className="btn btn-primary">Contact Me</a> */}
-
-
-        {/* <a href="mailto:kevinwong973@gmail.com" className="btn btn-primary">
-        {isOpen ? 'Contact Me' : 'Contact'} Dynamic text change </a> */}
-
-
-      </div>
+      {/* Sidebar content - displayed only when the sidebar is open */}
+      {isOpen && (
+        <>
+          {/* <img src="./images/bronco.jpg" width="50px" alt="logo" /> */}
+          <div className="sidebar-content">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#more">More</a>
+            
+            {/* Dynamic Contact Button Text */}
+            <a href="mailto:kevinwong973@gmail.com" className="btn btn-primary">
+              {isOpen ? 'Contact Me' : 'Contact'}
+            </a>
+          </div>
+        </>
+      )}
     </div>
   );
 };

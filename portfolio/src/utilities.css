@@ -28,7 +28,7 @@
     border: 2px solid transparent;
     outline: none;
     cursor: pointer;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     /* transition: all .5s ease; */
     transition: background-color 0.5s ease, color 0.5s ease;
     /* Specify properties to transition */
