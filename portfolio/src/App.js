@@ -5,6 +5,8 @@ import React from 'react';
 // import './utilities.css';
 import './styles.css';
 import Sidebar from './Sidebar';
+import profilePic from './assets/images/ProfilePicofKevinWong.jpg';
+import kevinArt from './assets/images/kevin_coffee.jpeg';
 
 function App() {
   return (
