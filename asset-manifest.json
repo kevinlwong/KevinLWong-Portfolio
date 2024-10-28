@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/KevinLWong-Portfolio/static/css/main.33d68f3b.css",
+    "main.js": "/KevinLWong-Portfolio/static/js/main.7b1f10f0.js",
+    "static/js/453.1407b060.chunk.js": "/KevinLWong-Portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/ProfilePicofKevinWong.jpg": "/KevinLWong-Portfolio/static/media/ProfilePicofKevinWong.8e59322485d4c4891b86.jpg",
+    "static/media/kevinart.JPG": "/KevinLWong-Portfolio/static/media/kevinart.bbc8c30626a281c203f2.JPG",
+    "static/media/linkedin.png": "/KevinLWong-Portfolio/static/media/linkedin.27274b9416246a35e253.png",
+    "static/media/github.jpeg": "/KevinLWong-Portfolio/static/media/github.48903d4fd471ac70a45a.jpeg",
+    "static/media/bw twitter.jpeg": "/KevinLWong-Portfolio/static/media/bw twitter.53a4eb691728afbdef23.jpeg",
+    "index.html": "/KevinLWong-Portfolio/index.html",
+    "main.33d68f3b.css.map": "/KevinLWong-Portfolio/static/css/main.33d68f3b.css.map",
+    "main.7b1f10f0.js.map": "/KevinLWong-Portfolio/static/js/main.7b1f10f0.js.map",
+    "453.1407b060.chunk.js.map": "/KevinLWong-Portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33d68f3b.css",
+    "static/js/main.7b1f10f0.js"
+  ]
+}
