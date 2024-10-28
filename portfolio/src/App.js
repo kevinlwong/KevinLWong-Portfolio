@@ -11,34 +11,7 @@ function App() {
     <div className="App">
       <Sidebar />
       <header className="App-header">
-        {/* Portfolio Header Section */}
-        <div className="container">
-          <nav className="flex items-center justify-between">
-            <div className="left flex justify-right">
-              {/* <div className="logo"> */}
-                {/* <img src="./images/bronco.jpg" width="50px" alt="logo" /> */}
-              {/* </div> */}
-              {/* <div>
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#projects">Projects</a>
-                <a href="#more">More</a>
-              </div> */}
-            </div>
-            {/* <div class="right"> */}
-                    {/* <button class="btn btn-primary">Contact</button>
-                    <a class="btn btn-primary" href="mailto:your-email@example.com">Contact Me</a> */}
-                    {/* <button class="btn btn-primary" */}
-                        {/* onclick="window.location.href='mailto:kevinwong973@gmail.com'">Contact Me</button> */}
-                {/* </div> */}
-
-            <div className="right">
-              {/* Add the CallButton component here */}
-              {/* <CallButton /> */}
-            </div>
-          </nav>
-        </div>
-
+      
         {/* Hero Section */}
         <div id="home" className="hero flex items-centre justify-between">
           <div className="left flex-1 justify-center">
@@ -120,7 +93,7 @@ function App() {
         </div>
       </section>
 
-      {/* <section id="projects" class="services">
+      <section id="projects" class="services">
   <div class="container">
     <h1 class="services-head">Projects</h1>
     <p>Here is a compilation of some of my projects! Click them to learn more about each one!</p>
@@ -135,11 +108,11 @@ function App() {
             messages.
           </p>
         </div>
-      </a> */}
+      </a>
       {/* <!-- Repeat for other projects, ensuring correct image paths --> */}
-    {/* </div>
+     </div>
   </div>
-</section> */}
+</section> 
 
  <section id="more" class="more">
         <div class="container">
