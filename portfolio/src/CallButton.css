@@ -1,0 +1,31 @@
+/* CallButton.css */
+
+.call-button {
+    background-color: var(--primary);
+    color: var(--secondary);
+    border: 2px solid transparent;
+    padding: 0.6rem 4rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    /* transition: all .5s ease; */
+    outline: none;
+    
+  }
+
+.call-button-primary {
+    background-color: var(--primary);
+    color: var(--secondary);
+    /* margin-top: -15rem; */
+    text-decoration: none;
+}
+  
+  .call-button:hover {
+    background: transparent;
+    border-color: var(--primary);
+    color: var(--primary);
+    padding: 0.6rem 4rem;
+  }
+  
