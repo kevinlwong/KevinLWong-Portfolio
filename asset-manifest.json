@@ -1,17 +1,26 @@
 {
   "files": {
-    "main.css": "/KevinLWong-Portfolio/static/css/main.39482073.css",
-    "main.js": "/KevinLWong-Portfolio/static/js/main.11de5fb7.js",
+    "main.css": "/KevinLWong-Portfolio/static/css/main.b918c59e.css",
+    "main.js": "/KevinLWong-Portfolio/static/js/main.b7702138.js",
     "static/js/453.1407b060.chunk.js": "/KevinLWong-Portfolio/static/js/453.1407b060.chunk.js",
     "static/media/ProfilePicofKevinWong.jpg": "/KevinLWong-Portfolio/static/media/ProfilePicofKevinWong.8e59322485d4c4891b86.jpg",
-    "static/media/kevin_coffee.jpeg": "/KevinLWong-Portfolio/static/media/kevin_coffee.2715386a3b6d9d1185a6.jpeg",
+    "static/media/kevinart.JPG": "/KevinLWong-Portfolio/static/media/kevinart.bbc8c30626a281c203f2.JPG",
+    "static/media/patchPal.webp": "/KevinLWong-Portfolio/static/media/patchPal.09ab694cd623d4c1da83.webp",
+    "static/media/bronco.jpg": "/KevinLWong-Portfolio/static/media/bronco.4ebe3632ade6e1f791b6.jpg",
+    "static/media/facial_expressions.jpg": "/KevinLWong-Portfolio/static/media/facial_expressions.6c0ba6788430164b99ff.jpg",
+    "static/media/linkedin.png": "/KevinLWong-Portfolio/static/media/linkedin.27274b9416246a35e253.png",
+    "static/media/spotify.jpeg": "/KevinLWong-Portfolio/static/media/spotify.27b28ab98f8fde60fded.jpeg",
+    "static/media/fa.jpg": "/KevinLWong-Portfolio/static/media/fa.9e7eee28186e9081e278.jpg",
+    "static/media/github.jpeg": "/KevinLWong-Portfolio/static/media/github.48903d4fd471ac70a45a.jpeg",
+    "static/media/duolingo icon.png": "/KevinLWong-Portfolio/static/media/duolingo icon.5bec281337d5bfbd8b09.png",
+    "static/media/bw twitter.jpeg": "/KevinLWong-Portfolio/static/media/bw twitter.53a4eb691728afbdef23.jpeg",
     "index.html": "/KevinLWong-Portfolio/index.html",
-    "main.39482073.css.map": "/KevinLWong-Portfolio/static/css/main.39482073.css.map",
-    "main.11de5fb7.js.map": "/KevinLWong-Portfolio/static/js/main.11de5fb7.js.map",
+    "main.b918c59e.css.map": "/KevinLWong-Portfolio/static/css/main.b918c59e.css.map",
+    "main.b7702138.js.map": "/KevinLWong-Portfolio/static/js/main.b7702138.js.map",
     "453.1407b060.chunk.js.map": "/KevinLWong-Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.39482073.css",
-    "static/js/main.11de5fb7.js"
+    "static/css/main.b918c59e.css",
+    "static/js/main.b7702138.js"
   ]
 }
