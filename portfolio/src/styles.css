@@ -185,14 +185,19 @@ section.about .socials a:hover {
     background: var(--primary);
 }
 
+
+
+
 section.services {
-    background: rgb(17, 17, 17)
+    /* background: rgb(17, 17, 17); */
+    background: var(--bgDark);
+    padding: 6rem;
 }
 
 .services-head {
     /* color: rgb(10, 9, 9); */
     /* text-align: center; */
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     line-height: 0.5rem;
     color: var(--primary);
 }
@@ -207,9 +212,8 @@ section.services {
 .services-head+p {
     color: var(--white);
     font-family: 'Lato', sans-serif;
-    margin-bottom: 1rem;
-    /* text-align: center; */
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
+    text-align: center;
     font-weight: 400;
 }
 
@@ -218,11 +222,18 @@ section.services {
     background: white;
 }
 
+.card {
+    height: auto;
+    overflow-wrap: break-word;
+    /* overflow: hidden; */
+    margin-bottom: 2rem;
+}
+
 section.services .card-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
-    row-gap: 2rem;
+    row-gap: 3rem;
 }
 
 .card-grid a {
@@ -234,7 +245,7 @@ section.services .card-grid {
 
 section.services .card-grid .card {
     background: var(--white);
-    padding: 3rem 2rem;
+    padding: 3rem 1.5rem;
     position: relative;
     text-align: center;
     transition: all .2s ease;
@@ -242,11 +253,11 @@ section.services .card-grid .card {
 }
 
 section.services .card-grid .card img {
-    position: absolute;
-    top: -1.5rem;
+    position: relative;
+    top: 0;
     left: 50%;
     transform: translateX(-50%);
-    color: var();
+    /* color: var(); */
 }
 
 section.services .card-grid .card h2 {
@@ -272,6 +283,42 @@ section.services .card-grid .card:hover h2 {
 section.services .card-grid .card:hover p {
     color: var(--white);
 }
+
+/* Medium screens - 2 columns */
+@media (max-width: 1200px) {
+    section.services .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile Responsive Adjustments */
+@media (max-width: 800px) {
+    section.services .card-grid {
+        grid-template-columns: 1fr; /* Stacks cards vertically */
+        row-gap: 2rem; /* Increase spacing between cards */
+    }
+
+    .services-head h1 {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .services-head + p {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+        padding: 0 1rem; /* Add padding for readability on smaller screens */
+    }
+
+    section.services {
+        padding: 2rem 1rem; /* Reduce padding for smaller screens */
+    }
+
+    .card {
+        padding: 2rem 1rem; /* Adjust padding within each card */
+    }
+}
+
+
 
 /* Center the "Achievements" Heading */
 .more .container h1 {
@@ -346,6 +393,32 @@ li h3 {
     scroll-behavior: smooth;
   }
   
+
+  /* Adjustments for Tablet Screens */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .hero {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .hero .right {
+        text-align: left;
+        margin-left: 2rem;
+    }
+
+    section.services .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1rem;
+    }
+
+    .hero .right h1 {
+        font-size: 2rem;
+    }
+
+    .hero .right h2 {
+        font-size: 1.5rem;
+    }
+}
 
 @media screen and (max-width: 768px) {
     header {

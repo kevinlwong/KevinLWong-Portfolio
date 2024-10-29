@@ -95,6 +95,8 @@ function App() {
         </div>
       </section>
 
+      {/* projects section */}
+
       <section id="projects" class="services">
   <div class="container">
     <h1 class="services-head">Projects</h1>
