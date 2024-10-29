@@ -217,16 +217,15 @@ section.services {
     font-weight: 400;
 }
 
-.card img {
-    width: 50px;
-    background: white;
-}
-
 .card {
-    height: auto;
+    /* height: auto; */
+    background: var(--bgLight);
     overflow-wrap: break-word;
-    /* overflow: hidden; */
-    margin-bottom: 2rem;
+    padding: 0 0;
+    position: relative;
+    text-align: center;
+    transition: all 0.8s ease;
+    border-radius: 2rem;
 }
 
 section.services .card-grid {
@@ -240,6 +239,7 @@ section.services .card-grid {
     text-decoration: none;
     /* Remove underline */
     color: black;
+    padding: 0 0;
     /* Set text color to black */
 }
 
@@ -249,14 +249,19 @@ section.services .card-grid .card {
     position: relative;
     text-align: center;
     transition: all .2s ease;
-    height: 300px;
+    height: auto;
 }
 
 section.services .card-grid .card img {
-    position: relative;
+    display: block;
+    margin: 0 auto 1rem; /* Centers horizontally and adds margin below */
+    width: 5rem; /* Adjust size as needed */
+    height: auto;
+    border-radius: 1rem;
+    /* position: relative;
     top: 0;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%); */
     /* color: var(); */
 }
 
@@ -315,6 +320,10 @@ section.services .card-grid .card:hover p {
 
     .card {
         padding: 2rem 1rem; /* Adjust padding within each card */
+    }
+
+    .card-grid a{
+        margin-bottom: 4rem;
     }
 }
 
@@ -420,7 +429,30 @@ li h3 {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
+
+     /* Ensure each section stacks vertically */
+     .hero, .about, .services, .more, .projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Adjust flex settings for container classes if any */
+    .container {
+        width: 100%;
+        padding: 5rem; /* Adjust padding if needed */
+    }
+
+    
+
+    /* Images should adjust to the full width of the screen */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
     header {
         padding: 3rem 0;
         /* Adjust the top and bottom padding for smaller screens */
@@ -435,5 +467,21 @@ li h3 {
         /* Adjust the top and bottom padding for smaller screens */
         background-color: var(--bgDark);
         clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);
+    }
+}
+
+/* Adjustments for Desktop Screens */
+@media (min-width: 1090px) {
+    section.services .card-grid {
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 1.5rem;
+    }
+
+    .hero .right h1 {
+        font-size: 3rem;
+    }
+
+    .hero .right h2 {
+        font-size: 2rem;
     }
 }

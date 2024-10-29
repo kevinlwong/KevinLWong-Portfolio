@@ -7,6 +7,12 @@ import './styles.css';
 import Sidebar from './Sidebar';
 import profilePic from './assets/images/ProfilePicofKevinWong.jpg';
 import kevinArt from './assets/images/kevinart.JPG';
+import twitterIcon from './assets/images/bw twitter.jpeg';
+import duolingoIcon from './assets/images/duolingo icon.png';
+import facialExpressions from './assets/images/facial_expressions.jpg';
+import patchPal from './assets/images/patchPal.webp';
+import spotifyIcon from './assets/images/spotify.jpeg';
+import faIcon from './assets/images/fa.jpg';
 
 function App() {
   return (
@@ -102,10 +108,12 @@ function App() {
     <h1 class="services-head">Projects</h1>
     <p>Here is a compilation of some of my projects! Click them to learn more about each one!</p>
     <div class="card-grid">
-    <a href="https://github.com/kevinlwong/CS3560-Programming-Assignment-3---Mini-Twitter" target="_blank" rel="noopener noreferrer">
 
+
+
+    <a href="https://github.com/kevinlwong/CS3560-Programming-Assignment-3---Mini-Twitter" target="_blank" rel="noopener noreferrer">
         <div class="card">
-          <img src="../public/images/bw twitter.jpeg" width="40px" alt="Mini Twitter Logo"></img>
+          <img src={twitterIcon} alt="Mini Twitter Logo"></img>
           <h2>Mini Twitter</h2>
           <p>Java-based Mini Twitter with graphical user interface using Java Swing, uses the Singleton,
             Observer, Visitor, and Composite Design Patterns, while allowing for following other users and posting
@@ -114,10 +122,11 @@ function App() {
         </div>
       </a>
 
+
+
       <a href="https://github.com/kevinlwong/CS3560-Programming-Assignment-3---Mini-Twitter" target="_blank" rel="noopener noreferrer">
-
 <div class="card">
-  <img src="../public/images/bw twitter.jpeg" width="40px" alt="Mini Twitter Logo"></img>
+  <img src={duolingoIcon} alt="Mini Twitter Logo"></img>
   <h2>Mini Twitter</h2>
   <p>Java-based Mini Twitter with graphical user interface using Java Swing, uses the Singleton,
     Observer, Visitor, and Composite Design Patterns, while allowing for following other users and posting
@@ -126,35 +135,13 @@ function App() {
 </div>
 </a>
 
-<a href="https://github.com/kevinlwong/CS3560-Programming-Assignment-3---Mini-Twitter" target="_blank" rel="noopener noreferrer">
 
-<div class="card">
-  <img src="../public/images/bw twitter.jpeg" width="40px" alt="Mini Twitter Logo"></img>
-  <h2>Mini Twitter</h2>
-  <p>Java-based Mini Twitter with graphical user interface using Java Swing, uses the Singleton,
-    Observer, Visitor, and Composite Design Patterns, while allowing for following other users and posting
-    messages.
-  </p>
-</div>
-</a>
-
-<a href="https://github.com/kevinlwong/CS3560-Programming-Assignment-3---Mini-Twitter" target="_blank" rel="noopener noreferrer">
-
-<div class="card">
-  <img src="../public/images/bw twitter.jpeg" width="40px" alt="Mini Twitter Logo"></img>
-  <h2>Mini Twitter</h2>
-  <p>Java-based Mini Twitter with graphical user interface using Java Swing, uses the Singleton,
-    Observer, Visitor, and Composite Design Patterns, while allowing for following other users and posting
-    messages.
-  </p>
-</div>
-</a>
 
 
 <a href="https://github.com/kevinlwong/CS3560-Programming-Assignment-3---Mini-Twitter" target="_blank" rel="noopener noreferrer">
 
 <div class="card">
-  <img src="../public/images/bw twitter.jpeg" width="40px" alt="Mini Twitter Logo"></img>
+  <img src={facialExpressions} alt="Mini Twitter Logo"></img>
   <h2>Mini Twitter</h2>
   <p>Java-based Mini Twitter with graphical user interface using Java Swing, uses the Singleton,
     Observer, Visitor, and Composite Design Patterns, while allowing for following other users and posting
@@ -162,12 +149,14 @@ function App() {
   </p>
 </div>
 </a>
+
+
 
 
 <a href="https://github.com/kevinlwong/CS3560-Programming-Assignment-3---Mini-Twitter" target="_blank" rel="noopener noreferrer">
 
 <div class="card">
-  <img src="../public/images/bw twitter.jpeg" width="40px" alt="Mini Twitter Logo"></img>
+  <img src={patchPal} alt="Mini Twitter Logo"></img>
   <h2>Mini Twitter</h2>
   <p>Java-based Mini Twitter with graphical user interface using Java Swing, uses the Singleton,
     Observer, Visitor, and Composite Design Patterns, while allowing for following other users and posting
@@ -175,6 +164,39 @@ function App() {
   </p>
 </div>
 </a>
+
+
+
+
+<a href="https://github.com/kevinlwong/CS3560-Programming-Assignment-3---Mini-Twitter" target="_blank" rel="noopener noreferrer">
+
+<div class="card">
+  <img src={spotifyIcon} alt="Mini Twitter Logo"></img>
+  <h2>Mini Twitter</h2>
+  <p>Java-based Mini Twitter with graphical user interface using Java Swing, uses the Singleton,
+    Observer, Visitor, and Composite Design Patterns, while allowing for following other users and posting
+    messages.
+  </p>
+</div>
+</a>
+
+
+
+
+<a href="https://github.com/kevinlwong/CS3560-Programming-Assignment-3---Mini-Twitter" target="_blank" rel="noopener noreferrer">
+
+<div class="card">
+  <img src={faIcon} alt="Mini Twitter Logo"></img>
+  <h2>Mini Twitter</h2>
+  <p>Java-based Mini Twitter with graphical user interface using Java Swing, uses the Singleton,
+    Observer, Visitor, and Composite Design Patterns, while allowing for following other users and posting
+    messages.
+  </p>
+</div>
+</a>
+
+
+
       {/* <!-- Repeat for other projects, ensuring correct image paths --> */}
      </div>
   </div>
