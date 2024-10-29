@@ -51,6 +51,7 @@
     background: transparent;
     border-color: var(--primary);
     color: var(--primary);
+    transition-duration: 300ms;
 }
 
 .flex-1 {
